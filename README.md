@@ -5,6 +5,7 @@
 > [!WARNING]
  This extension redirects 404 pages to archived versions. Archived pages may contain outdated, inaccurate, or insecure content. Use at your own risk.
 
+**View 404 Page** https://icedmoca.github.io/404-archive-redirect/404.html
 ## Installation
 
 1. Open Chromium/Chrome browser
