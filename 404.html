@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="error-content">
+            <div class="title-section">
+                <span class="error-code-small">404</span>
+                <h2 class="error-message">Page Not Found</h2>
+                <button id="back-btn" class="back-btn">
+                    Go Back
+                </button>
+            </div>
+            <p class="error-description">
+                The page you're looking for doesn't exist or has been moved.
+            </p>
+            <div class="original-url">
+                <small>Original URL: <span id="original-url">Loading...</span></small>
+                <button id="copy-btn" class="copy-btn" title="Copy URL to clipboard">
+                    <span class="copy-icon">📋</span>
+                </button>
+            </div>
+            
+            <div class="archive-services">
+                <h3 class="services-title">Archive Services</h3>
+                <div class="services-table">
+                    <div class="table-header">
+                        <div class="col-service">Service</div>
+                        <div class="col-description">Description</div>
+                        <div class="col-links">Archive Links</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="col-service">
+                            <strong>Wayback Machine</strong><br>
+                            <small>(web.archive.org)</small>
+                        </div>
+                        <div class="col-description">Internet Archive's comprehensive web archiving service</div>
+                        <div class="col-links">
+                            <div class="link-group">
+                                <a href="#" class="archive-link" data-service="wayback">
+                                    View
+                                    <span class="capture-badge" id="wayback-badge" style="display: none;">+0</span>
+                                </a>
+                                <button class="copy-link-btn" data-service="wayback" title="Copy archive URL">📋</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="col-service">
+                            <strong>Ghost Archive</strong>
+                        </div>
+                        <div class="col-description">Designed for saving/deleting social media content</div>
+                        <div class="col-links">
+                            <div class="link-group">
+                                <a href="#" class="archive-link" data-service="ghostarchive">View</a>
+                                <button class="copy-link-btn" data-service="ghostarchive" title="Copy archive URL">📋</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="col-service">
+                            <strong>UK Web Archive</strong><br>
+                            <small>(British Library)</small>
+                        </div>
+                        <div class="col-description">Large national archive of UK sites</div>
+                        <div class="col-links">
+                            <div class="link-group">
+                                <a href="#" class="archive-link" data-service="ukwa">View</a>
+                                <button class="copy-link-btn" data-service="ukwa" title="Copy archive URL">📋</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="col-service">
+                            <strong>Library of Congress</strong><br>
+                            <small>Web Archives</small>
+                        </div>
+                        <div class="col-description">Search Library of Congress digital collections</div>
+                        <div class="col-links">
+                            <div class="link-group">
+                                <a href="#" class="archive-link" data-service="loc">View</a>
+                                <button class="copy-link-btn" data-service="loc" title="Copy archive URL">📋</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-row">
+                        <div class="col-service">
+                            <strong>Common Crawl</strong>
+                        </div>
+                        <div class="col-description">Search through raw archived web crawls</div>
+                        <div class="col-links">
+                            <div class="link-group">
+                                <a href="#" class="archive-link" data-service="commoncrawl">View</a>
+                                <button class="copy-link-btn" data-service="commoncrawl" title="Copy archive URL">📋</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

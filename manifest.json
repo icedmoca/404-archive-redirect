@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "404 Archive Redirect",
+  "version": "1.0",
+  "description": "Intercepts 404 errors and redirects to a custom page with Archive Links",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["404.html", "style.css", "script.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
