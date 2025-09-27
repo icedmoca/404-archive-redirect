@@ -6,6 +6,9 @@
  This extension redirects 404 pages to archived versions. Archived pages may contain outdated, inaccurate, or insecure content. Use at your own risk.
 
 **View 404 Page** https://icedmoca.github.io/404-archive-redirect/404.html
+
+**View 404 Page If you have the extension installed** http://distrowatch.com/images/cgfjoewdlbc/blackarch.png
+
 ## Installation
 
 1. Open Chromium/Chrome browser
